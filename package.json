@@ -5,9 +5,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "url-do-github"
+    "url": "https://github.com/ThalesSSan/WorkScripts.git"
   },
   "dependencies": {
-    "express": "^4.18.2"touch .gitignore
+    "express": "^4.18.2"
   }
 }
