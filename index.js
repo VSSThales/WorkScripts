@@ -8,6 +8,5 @@ server.use(express.json());
 server.get('./src/screens/dash', (req, res) => {
     const { index } = req.params;
 
-    return res.send()
-        ;
+    return res.send(dash);
 })
