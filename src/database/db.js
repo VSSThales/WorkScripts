@@ -4,12 +4,12 @@ async function connect() {
 
     const { Pool } = require('pg');
     const pool = new Pool({
-        connectionString: 'postgres://fyazuind:r34WG7VcdfJvN4WplbWYHEk-hfyYELv1@isilo.db.elephantsql.com:5432/fyazuind'
+        connectionString: ''
     });
 
     //apenas testando a conexão
     const jcbc = await pool.connect();
-    console.log("Criou pool de conexões no PostgreSQL!");
+    console.log("Conectado no PostgreSQL!");
 
     const res = await jcbc.query('SELECT NOW()');
     console.log(res.rows[0]);
